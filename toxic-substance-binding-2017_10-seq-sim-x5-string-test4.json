@@ -1,0 +1,2057 @@
+{
+    "format_version": "1.0",
+    "generated_by": "graphspace-2.0.0",
+    "target_cytoscapejs_version": "~2.7",
+    "style": [
+        {
+            "selector": "node[name='Yp-YP_3568']",
+            "style": {
+                "label": "Yp-YP_3568",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YPO0400']",
+            "style": {
+                "label": "Yp-YPO0400",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_18490']",
+            "style": {
+                "label": "Mt-LH57_18490",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.285572",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Kp-KPN_pKPN4p07041']",
+            "style": {
+                "label": "Kp-KPN_pKPN4p07041",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Sp-SPy_0550']",
+            "style": {
+                "label": "Sp-SPy_0550",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.28015",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-y3782']",
+            "style": {
+                "label": "Yp-y3782",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-vapB5']",
+            "style": {
+                "label": "Mt-vapB5",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#cc5800",
+                "border-width": "10px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "rectangle",
+                "border-style": "double",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Hi-relB']",
+            "style": {
+                "label": "Hi-relB",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.394848",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-imm-Q0WAC9']",
+            "style": {
+                "label": "Yp-imm-Q0WAC9",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ab-ABSDF_p20031']",
+            "style": {
+                "label": "Ab-ABSDF_p20031",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.564202",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_18340']",
+            "style": {
+                "label": "Mt-LH57_18340",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.231563",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Bc-VC_A0324']",
+            "style": {
+                "label": "Bc-VC_A0324",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YP_3894']",
+            "style": {
+                "label": "Yp-YP_3894",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-AVO31_19685']",
+            "style": {
+                "label": "Yp-AVO31_19685",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.52125",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ec-yefM']",
+            "style": {
+                "label": "Ec-yefM",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#cc5800",
+                "border-width": "10px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "rectangle",
+                "border-style": "double",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YPO3653']",
+            "style": {
+                "label": "Yp-YPO3653",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-vapB46']",
+            "style": {
+                "label": "Mt-vapB46",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.225488",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ef-dinJ']",
+            "style": {
+                "label": "Ef-dinJ",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.391822",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YP_3161']",
+            "style": {
+                "label": "Yp-YP_3161",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.5",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Sd-relB']",
+            "style": {
+                "label": "Sd-relB",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.218007",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_15685']",
+            "style": {
+                "label": "Mt-LH57_15685",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.350065",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ef-HMPREF0351_12824']",
+            "style": {
+                "label": "Ef-HMPREF0351_12824",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.243605",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_03190']",
+            "style": {
+                "label": "Mt-LH57_03190",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.347588",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ef-HMPREF0351_13002']",
+            "style": {
+                "label": "Ef-HMPREF0351_13002",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.331112",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-orf11']",
+            "style": {
+                "label": "Yp-orf11",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-AVO31_16750']",
+            "style": {
+                "label": "Yp-AVO31_16750",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.5",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Kp-KPN_pKPN3p05860']",
+            "style": {
+                "label": "Kp-KPN_pKPN3p05860",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                “:q!
+shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Kp-KPN_pKPN3p05862']",
+            "style": {
+                "label": "Kp-KPN_pKPN3p05862",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_03375']",
+            "style": {
+                "label": "Mt-LH57_03375",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.241743",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ec-dinJ']",
+            "style": {
+                "label": "Ec-dinJ",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-imm']",
+            "style": {
+                "label": "Yp-imm",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YPO3885']",
+            "style": {
+                "label": "Yp-YPO3885",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.5",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Mt-LH57_17360']",
+            "style": {
+                "label": "Mt-LH57_17360",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.25553",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Pa-imm2']",
+            "style": {
+                "label": "Pa-imm2",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-AU254_20705']",
+            "style": {
+                "label": "Yp-AU254_20705",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.52125",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Sd-dinJ']",
+            "style": {
+                "label": "Sd-dinJ",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Sd-SDY_P073']",
+            "style": {
+                "label": "Sd-SDY_P073",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.363311",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Se-STM3517']",
+            "style": {
+                "label": "Se-STM3517",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-cdiI']",
+            "style": {
+                "label": "Yp-cdiI",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.52125",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YPO3628']",
+            "style": {
+                "label": "Yp-YPO3628",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ab-ABSDF1620']",
+            "style": {
+                "label": "Ab-ABSDF1620",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.318393",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-YPO0871']",
+            "style": {
+                "label": "Yp-YPO0871",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Ef-HMPREF0351_10191']",
+            "style": {
+                "label": "Ef-HMPREF0351_10191",
+                "text-outline-color": "#d88c00",
+                "background-opacity": "0.266907",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#d88c00",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "node[name='Yp-relB']",
+            "style": {
+                "label": "Yp-relB",
+                "text-outline-color": "#40aff9",
+                "text-outline-width": "4px",
+                "border-color": "#7f8184",
+                "border-width": "2px",
+                "height": "45px",
+                "width": "45px",
+                "shape": "ellipse",
+                "border-style": "solid",
+                "text-wrap": "wrap",
+                "text-halign": "center",
+                "text-valign": "bottom",
+                "background-color": "#40aff9",
+                "text-opacity": "1"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YP_3568-Yp-YP_3894']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.9724103377570805px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YP_3568-Yp-YPO3653']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.9724103377570805px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-LH57_17360']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0236481448126307px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-LH57_03190']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0827331976289363px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-vapB46']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "4.186652910884931px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-vapB5']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1172311050667127px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-LH57_03375']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1172311050667127px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18490-Mt-LH57_15685']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1451748743950498px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN4p07041-Pa-imm2']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "2.0044528225447147px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN4p07041-Yp-imm-Q0WAC9']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.901137461514496px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sp-SPy_0550-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1577143370566714px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-y3782-Kp-KPN_pKPN3p05860']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "3.131680179844301px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0839717178392971px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Sd-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0207025529870146px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Yp-orf11']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0041594645862273px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Se-STM3517']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0204718834329491px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Yp-YPO3628']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0231327924915645px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Ec-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0140205152242265px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Hi-relB-Yp-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0231327924915645px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Q0WAC9-Yp-cdiI']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#24bf1c",
+                "target-arrow-shape": "none",
+                "color": "#24bf1c",
+                "target-arrow-fill": "filled",
+                "width": "10px",
+                "line-style": "solid",
+                "target-arrow-color": "#24bf1c"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Q0WAC9-Yp-YPO3885']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#24bf1c",
+                "target-arrow-shape": "none",
+                "color": "#24bf1c",
+                "target-arrow-fill": "filled",
+                "width": "6.222691144960571px",
+                "line-style": "solid",
+                "target-arrow-color": "#24bf1c"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF_p20031-Ef-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0091393447292825px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF_p20031-Hi-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.196582455841741px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF_p20031-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.033750644432222px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF_p20031-Ec-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0076780691194143px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF_p20031-Sd-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0030971069574428px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18340-Ef-HMPREF0351_12824']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0551683636428209px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_18340-Ec-yefM']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.7964523767600709px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Bc-VC_A0324-Yp-orf11']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0724909140528052px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YP_3894-Yp-YPO0871']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.9724103377570805px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ec-yefM-Ef-HMPREF0351_12824']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0754838909950455px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YPO3653-Yp-YPO0871']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.9724103377570805px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-vapB46-Mt-vapB5']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1014488795992066px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-dinJ-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0024128542621717px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-dinJ-Ef-HMPREF0351_13002']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0675783333962081px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YP_3161-Yp-AVO31_16750']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "4.15028299894589px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_15685-Mt-vapB5']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.6469870775049846px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_15685-Mt-LH57_03375']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.6469870775049846px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_15685-Mt-vapB46']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.137170562124678px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_15685-Mt-LH57_03190']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1471485338508753px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_03190-Mt-vapB5']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.3406192253148574px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_03190-Mt-vapB46']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0789364915759372px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_13002-Sd-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.2919495983515765px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_13002-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.046138849058015px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_13002-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.3371275894308474px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_13002-Sd-SDY_P073']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1731458530570882px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-AVO31_16750-Yp-YPO3885']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "4.15028299894589px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN3p05860-Yp-YPO0400']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "3.131680179844301px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN3p05862-Kp-KPN_pKPN4p07041']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "4.579124824731621px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN3p05862-Yp-imm-Q0WAC9']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.889028240534877px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Kp-KPN_pKPN3p05862-Pa-imm2']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.9977874076351352px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_03375-Mt-vapB46']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1014488795992066px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_03375-Mt-LH57_03190']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.3406192253148574px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ec-dinJ-Yp-YPO3628']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.3324602541028003px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ec-dinJ-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1227493331412703px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Pa-imm2']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "2.17023778935118px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Kp-KPN_pKPN4p07041']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.890242884974039px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Yp-imm-Q0WAC9']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "4.2900915163291256px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-imm-Kp-KPN_pKPN3p05862']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.976976846128327px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Mt-LH57_17360-Mt-vapB46']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0129746188008173px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Pa-imm2-Yp-imm-Q0WAC9']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "2.1798121288947616px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-AU254_20705-Yp-cdiI']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "3.437905967104468px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-AU254_20705-Yp-AVO31_19685']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "3.437905967104468px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-dinJ-Yp-YPO3628']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.31644339812055px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-dinJ-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.195289952914385px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-SDY_P073-Sd-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.4372748317666255px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-SDY_P073-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0500676825301236px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-SDY_P073-Ec-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0006737460302482px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Sd-SDY_P073-Sd-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0142888831985397px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Se-STM3517-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.2205439827938278px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Se-STM3517-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.03673241720954px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YPO3628-Yp-orf11']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1141475162023px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-YPO3628-Se-STM3517']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1466405072670853px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Bc-VC_A0324']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0082383311781893px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Sp-SPy_0550']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.150923017338349px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Ef-HMPREF0351_13002']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.2393329397782897px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Hi-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.04126088910422px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Sd-relB']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1746716598943285px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ab-ABSDF1620-Ab-ABSDF_p20031']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.07780613379555px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_10191-Mt-LH57_18340']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.0768834834602576px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Ef-HMPREF0351_10191-Ec-yefM']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-relB-Ec-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.3324602541028003px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-relB-Sd-dinJ']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.31644339812055px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-relB-Yp-orf11']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1141475162023px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        },
+        {
+            "selector": "edge[name='Yp-relB-Se-STM3517']",
+            "style": {
+                "curve-style": "bezier",
+                "opacity": "0.7",
+                "line-color": "#6b6b6b",
+                "target-arrow-shape": "none",
+                "color": "#6b6b6b",
+                "target-arrow-fill": "filled",
+                "width": "1.1466405072670853px",
+                "line-style": "solid",
+                "target-arrow-color": "#6b6b6b"
+            }
+        }
+    ]
+}

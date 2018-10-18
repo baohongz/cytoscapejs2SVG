@@ -1,0 +1,37 @@
+.cy-searchbox{
+  position: absolute;
+  font-size: 11px;
+  font-family: arial, helvetica, sans-serif;
+  z-index: 999999;
+  width: 120px;
+  height: 30px;
+  bottom: 0;
+  left: 6px;
+}
+.cy-searchbox-div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px dotted gray;
+}
+.cy-searchbox-div input{
+  width: 100px;
+}
+.cy-searchbox-querybox{
+  margin: 0;
+  border: 0;
+  padding: 2px;
+  font-size: 11px;
+}
+.cy-searchbox-submit{
+  display: inline;
+  border-left: 3px;
+  padding:2px;
+  position: absolute;
+  right: 6px;
+  cursor: pointer;
+}
+
+.cy-searchbox-searchbox-only .cy-searchbox-submit{
+  display: none;
+}

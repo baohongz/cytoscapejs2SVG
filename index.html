@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>cytoscape.js SVG output demo</title>
+
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-panzoom.css">
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-searchbox.css">
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-exportbox.css">
+<link rel="stylesheet" type="text/css" href="lib/jquery.qtip.min.css">
+<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
+
+<script type="text/javascript" src="lib/cytoscape.svg.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="lib/canvas2svg.js"></script>
+<script type="text/javascript" src="lib/FileSaver.js"></script>
+<script type="text/javascript" src="lib/circular-json.js"></script>
+
+<script type="text/javascript" src="lib/cytoscape-panzoom.js"></script>
+<script type="text/javascript" src="lib/cytoscape-searchbox.js"></script>
+<script type="text/javascript" src="lib/cytoscape-exportbox.js"></script>
+<script type="text/javascript" src="lib/cytoscape-qtip.js"></script>
+
+</head>
+
+<script>
+	var cy;
+
+	document.addEventListener('DOMContentLoaded', function(){
+		cy = window.cy = window.cytoscape = cytoscape({
+			container: $('#cy'),
+			
+			layout: {
+				name: 'cose',
+				padding: 10
+			},
+			
+			style: cytoscape.stylesheet()
+				.selector('node')
+				.css({
+				'shape': 'data(faveShape)',
+				'width': 'mapData(weight, 40, 80, 20, 60)',
+				'content': 'data(name)',
+				'text-valign': 'center',
+				'text-outline-width': 2,
+				'text-outline-color': 'data(faveColor)',
+				'background-color': 'data(faveColor)',
+				'color': '#fff'
+			})
+			.selector(':selected')
+			.css({
+				'border-width': 3,
+				'border-color': '#333'
+			})
+			.selector('edge')
+			.css({
+				'curve-style': 'bezier',
+				'opacity': 0.666,
+				'width': 'mapData(strength, 70, 100, 2, 6)',
+				'target-arrow-shape': 'triangle',
+				'source-arrow-shape': 'circle',
+				'line-color': 'data(faveColor)',
+				'source-arrow-color': 'data(faveColor)',
+				'target-arrow-color': 'data(faveColor)'
+			})
+			.selector('edge.questionable')
+			.css({
+				'line-style': 'dotted',
+				'target-arrow-shape': 'diamond'
+			})
+			.selector('.faded')
+			.css({
+				'opacity': 0.25,
+				'text-opacity': 0
+			}),
+			
+			elements: {
+				nodes: [
+					{ data: { id: 'k', name: 'TYK2', weight: 75, faveColor: '#86B342', faveShape: 'octagon' } },
+					{ data: { id: 'j', name: 'JAK2', weight: 65, faveColor: '#6FB1FC', faveShape: 'triangle' } },
+					{ data: { id: 'e', name: 'STAT2', weight: 45, faveColor: '#EDA1ED', faveShape: 'ellipse' } },
+					{ data: { id: 'g', name: 'IL27RA', weight: 70, faveColor: '#F5A45D', faveShape: 'ellipse' } }
+					],
+				edges: [
+					{ data: { source: 'j', target: 'e', faveColor: '#6FB1FC', strength: 90 } },
+					{ data: { source: 'j', target: 'k', faveColor: '#6FB1FC', strength: 70 } },
+					{ data: { source: 'j', target: 'g', faveColor: '#6FB1FC', strength: 80 } },
+					
+					{ data: { source: 'e', target: 'j', faveColor: '#EDA1ED', strength: 95 } },
+					{ data: { source: 'e', target: 'k', faveColor: '#EDA1ED', strength: 60 }, classes: 'questionable' },
+					
+					{ data: { source: 'k', target: 'j', faveColor: '#86B342', strength: 100 } },
+					{ data: { source: 'k', target: 'e', faveColor: '#86B342', strength: 100 } },
+					{ data: { source: 'k', target: 'g', faveColor: '#86B342', strength: 100 } },
+					
+					{ data: { source: 'g', target: 'j', faveColor: '#F5A45D', strength: 90 } }
+				]
+			}
+		});
+
+		cy.nodes().forEach(function(n){
+			//console.log(n._private);
+			var data = n._private.data;
+			var g = data.name;
+			var tipStr = "";
+			// console.log(data);
+			for(var key in data) {
+				if(key === 'name') {
+					tipStr += key + ': ' +
+					'<a href="http://useast.ensembl.org/Multi/Search/Results?q=' +
+					data[key] + '" target="_blank">' + data[key] + '</a><br/>';
+				}else{
+					tipStr += key + ": "+ data[key] + "<br/>";
+				}
+			}
+			n.qtip({
+				content: {
+					text: tipStr,
+					title: g
+				},
+				position: {
+					my: 'top center',
+					at: 'bottom center'
+				},
+				style: {
+					classes: 'qtip-light',
+					tip: {
+						width: 80,
+						height: 8
+					}
+				}
+			});
+		});
+
+		cy.panzoom();
+		cy.exportbox();	
+		cy.searchbox();
+	});
+
+	function saveAsSVG() {
+		var ctx = new C2S(cy.container().style.width.replace(/px/,""),cy.container().style.height.replace(/px/,""));	
+		
+		var CanvasRenderer = cy.renderer();
+		var orignalUsePaths = CanvasRenderer.usePaths;
+		CanvasRenderer.usePaths = function() { return false; };
+		
+		cy.renderer().renderSVG({ forcedContext: ctx });
+		
+		var svg = ctx.getSerializedSvg();	
+		var blob = new Blob([svg], { type: "image/svg+xml;charset=" + document.characterSet });
+		saveAs(blob, 'test.svg');
+
+		CanvasRenderer.usePaths = orignalUsePaths;
+	}
+</script>
+
+<body>
+<style>
+	.column { max-width: 960px; display: block; margin: 0 auto; }
+</style>
+
+<center><button onclick="saveAsSVG();">Save as SVG</button> | <a href=demo1.html>Demo 1</a> | <a href=demo2.html>Demo 2</a> | <a href=index.html>Index</a></center>
+<hr>
+<div class=column id="cy" style="padding-top:0px;width:800px;height:800px;"></div>
+</body>
+
+</html>

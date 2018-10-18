@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>cytoscape.js SVG output demo</title>
+
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-panzoom.css">
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-searchbox.css">
+<link rel="stylesheet" type="text/css" href="lib/cytoscape-exportbox.css">
+<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
+
+<script type="text/javascript" src="lib/cytoscape.svg.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/canvas2svg.js"></script>
+<script type="text/javascript" src="lib/FileSaver.js"></script>
+<script type="text/javascript" src="lib/circular-json.js"></script>
+
+<script type="text/javascript" src="lib/cytoscape-panzoom.js"></script>
+<script type="text/javascript" src="lib/cytoscape-searchbox.js"></script>
+<script type="text/javascript" src="lib/cytoscape-exportbox.js"></script>
+
+</head>
+
+<script>
+	var cy;
+
+	document.addEventListener('DOMContentLoaded', function(){
+		cy = window.cy = window.cytoscape = cytoscape({
+		  container: document.getElementById('cy'),
+		
+		  style: cytoscape.stylesheet()
+		    .selector('node')
+		      .css({
+		        'width': '60px',
+		        'height': '60px',
+		        'content': 'data(name)',
+		        'pie-size': '80%',
+		        'pie-1-background-color': '#E8747C',
+		        'pie-1-background-size': 'mapData(foo, 0, 10, 0, 100)',
+		        'pie-2-background-color': '#74CBE8',
+		        'pie-2-background-size': 'mapData(bar, 0, 10, 0, 100)',
+		        'pie-3-background-color': '#74E883',
+		        'pie-3-background-size': 'mapData(baz, 0, 10, 0, 100)'
+		      })
+		    .selector('edge')
+		      .css({
+		        'curve-style': 'bezier',
+		        'width': 4,
+		        'target-arrow-shape': 'triangle',
+		        'opacity': 0.5
+		      })
+		    .selector(':selected')
+		      .css({
+		        'background-color': 'black',
+		        'line-color': 'black',
+		        'target-arrow-color': 'black',
+		        'source-arrow-color': 'black',
+		        'opacity': 1
+		      })
+		    .selector('.faded')
+		      .css({
+		        'opacity': 0.25,
+		        'text-opacity': 0
+		      }),
+		
+		  elements: {
+		    nodes: [
+		      { data: { id: 'a', name: 'a1', foo: 3, bar: 5, baz: 2 } },
+		      { data: { id: 'b', name: 'b1', foo: 6, bar: 1, baz: 3 } },
+		      { data: { id: 'c', name: 'c1', foo: 2, bar: 3, baz: 5 } },
+		      { data: { id: 'd', name: 'd1', foo: 7, bar: 1, baz: 2 } },
+		      { data: { id: 'e', name: 'e1', foo: 2, bar: 3, baz: 5 } }
+		    ],
+		
+		    edges: [
+		      { data: { id: 'ae', weight: 1, source: 'a', target: 'e' } },
+		      { data: { id: 'ab', weight: 3, source: 'a', target: 'b' } },
+		      { data: { id: 'be', weight: 4, source: 'b', target: 'e' } },
+		      { data: { id: 'bc', weight: 5, source: 'b', target: 'c' } },
+		      { data: { id: 'ce', weight: 6, source: 'c', target: 'e' } },
+		      { data: { id: 'cd', weight: 2, source: 'c', target: 'd' } },
+		      { data: { id: 'de', weight: 7, source: 'd', target: 'e' } }
+		    ]
+		  },
+		
+		  layout: {
+		    name: 'grid',
+//		    name: 'circle', ('random', 'concentric', 'breadthfirst', 'cose', 'cose-bilkent', 'cola', 'hierarchical', 'euler', 'cose-spring', 'springy', 'arbor') // HuRI, Cytoscape.js layout demo
+		    padding: 10
+		  }
+		});
+		cy.panzoom();
+		cy.exportbox();	
+		cy.searchbox();
+	});
+
+
+
+	function myFunction() {
+		var ctx = new C2S(cy.container().style.width.replace(/px/,""),cy.container().style.height.replace(/px/,""));	
+		
+		var CanvasRenderer = cy.renderer();
+		
+		var orignalUsePaths = CanvasRenderer.usePaths;
+		CanvasRenderer.usePaths = function() { return false; };
+		
+		cy.renderer().renderSVG({ forcedContext: ctx });
+		
+		var svg = ctx.getSerializedSvg();	
+		var blob = new Blob([svg], { type: "image/svg+xml;charset=" + document.characterSet });
+		saveAs(blob, 'test.svg');
+
+		CanvasRenderer.usePaths = orignalUsePaths;
+	}
+</script>
+
+<body>
+<style>
+	.column { max-width: 960px; display: block; margin: 0 auto; }
+</style>
+<center><button onclick="myFunction();">Save as SVG</button> | <a href=demo1.html>Demo 1</a> | <a href=demo2.html>Demo 2</a> | <a href=index.html>Index</a></center>
+<hr>
+<div class=column id="cy" style="padding-top:0px;width:800px;height:800px;"></div>
+</body>
+
+</html>
