@@ -31,6 +31,7 @@
 			
 			layout: {
 				name: 'cose',
+//          name: 'circle', ('random', 'concentric', 'breadthfirst', 'cose', 'cose-bilkent', 'cola', 'hierarchical', 'euler', 'cose-spring', 'springy', 'arbor')
 				padding: 10
 			},
 			
@@ -38,18 +39,34 @@
 				.selector('node')
 				.css({
 				'shape': 'data(faveShape)',
-				'width': 'mapData(weight, 40, 80, 20, 60)',
+//				'width': 'mapData(weight, 40, 80, 20, 60)',
 				'content': 'data(name)',
-				'text-valign': 'center',
-				'text-outline-width': 2,
+
+                'width': '40px',
+                'height': '30px',
+
+				'text-valign': 'top',
+				'text-outline-width': 0,
 				'text-outline-color': 'data(faveColor)',
+				'font-size': 8,
+				'background-opacity': 0.1,
 				'background-color': 'data(faveColor)',
-				'color': '#fff'
+				'border-color': '#000',
+				'border-width': 1,
+				'color': '#000',
+                'pie-size': '80%',
+                'pie-1-background-color': '#E8747C',
+                'pie-1-background-size': 'mapData(foo, 0, 10, 0, 100)',
+                'pie-2-background-color': '#74CBE8',
+                'pie-2-background-size': 'mapData(bar, 0, 10, 0, 100)',
+                'pie-3-background-color': '#74E883',
+                'pie-3-background-size': 'mapData(baz, 0, 10, 0, 100)'
+
 			})
 			.selector(':selected')
 			.css({
-				'border-width': 3,
-				'border-color': '#333'
+				'border-width': 2,
+				'border-color': '#eee'
 			})
 			.selector('edge')
 			.css({
@@ -75,9 +92,9 @@
 			
 			elements: {
 				nodes: [
-					{ data: { id: 'k', name: 'TYK2', weight: 75, faveColor: '#86B342', faveShape: 'octagon' } },
-					{ data: { id: 'j', name: 'JAK2', weight: 65, faveColor: '#6FB1FC', faveShape: 'triangle' } },
-					{ data: { id: 'e', name: 'STAT2', weight: 45, faveColor: '#EDA1ED', faveShape: 'ellipse' } },
+					{ data: { id: 'k', name: 'TYK2', weight: 75, faveColor: '#86B342', faveShape: 'octagon', foo: 3.33, bar: 3.33, baz: 3.33 } },
+					{ data: { id: 'j', name: 'JAK2', weight: 65, faveColor: '#6FB1FC', faveShape: 'diamond', foo: 3.33, bar: 3.33, baz: 3.33 } },
+					{ data: { id: 'e', name: 'STAT2', weight: 45, faveColor: '#EDA1ED', faveShape: 'square', foo: 3.33, bar: 3.33, baz: 3.33 } },
 					{ data: { id: 'g', name: 'IL27RA', weight: 70, faveColor: '#F5A45D', faveShape: 'ellipse' } }
 					],
 				edges: [
